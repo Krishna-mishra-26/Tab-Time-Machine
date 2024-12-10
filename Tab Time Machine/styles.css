@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  h1, h2 {
+    font-size: 18px;
+  }
+  
+  /* Multi-color background clip for the header */
+h1 {
+    background: linear-gradient(45deg, #ff6a00, #ffcc00, #01426d);
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+  }
+  
+  #snapshotName {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  /* Light blue box shadow when typing */
+  #snapshotName:focus {
+    box-shadow: 0 0 5px rgba(173, 216, 230, 0.8); /* Light blue box-shadow */
+    outline: none;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #snapshotList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+  }
+  
+  /* Bold snapshot name */
+  #snapshotList li span {
+    font-weight: bold;
+  }
+  
+  #app {
+    border-radius: 15px; /* Adjust the radius as needed */
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for delete button */
+  #snapshotList li button.delete {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #snapshotList li button.delete:hover {
+    background-color: #c0392b;
+  }
+  
