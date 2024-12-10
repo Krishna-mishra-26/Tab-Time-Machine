@@ -43,4 +43,6 @@ Whether you're a student, a professional, or someone juggling multiple tabs dail
 💡 Give it a try today! I created this extension to help improve your browsing experience. Enjoy the convenience of restoring your tabs exactly when you need them.
 
 
+## Watch the Demo
 
+[Watch Tab Time Machine Demo](./Tab%20Time%20Machine/DEMO-Tab%20Time%20Machine.mp4)
